@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E091D61FCB3A2A006BBF33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E091D51FCB3A2A006BBF33 /* AppDelegate.m */; };
+		68E091D91FCB3A2B006BBF33 /* DocumentBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E091D81FCB3A2B006BBF33 /* DocumentBrowserViewController.m */; };
+		68E091DC1FCB3A2B006BBF33 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E091DB1FCB3A2B006BBF33 /* DocumentViewController.m */; };
+		68E091DF1FCB3A2B006BBF33 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E091DE1FCB3A2B006BBF33 /* Document.m */; };
+		68E091E21FCB3A2B006BBF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E091E01FCB3A2B006BBF33 /* Main.storyboard */; };
+		68E091E41FCB3A2B006BBF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E091E31FCB3A2B006BBF33 /* Assets.xcassets */; };
+		68E091E71FCB3A2B006BBF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E091E51FCB3A2B006BBF33 /* LaunchScreen.storyboard */; };
+		68E091EA1FCB3A2B006BBF33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E091E91FCB3A2B006BBF33 /* main.m */; };
+		68E091F41FCB3A2B006BBF33 /* Tax_DocsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E091F31FCB3A2B006BBF33 /* Tax_DocsTests.m */; };
+		68E091FF1FCB3A2B006BBF33 /* Tax_DocsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E091FE1FCB3A2B006BBF33 /* Tax_DocsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E091F01FCB3A2B006BBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E091C91FCB3A2A006BBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E091D01FCB3A2A006BBF33;
+			remoteInfo = "Tax Docs";
+		};
+		68E091FB1FCB3A2B006BBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E091C91FCB3A2A006BBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E091D01FCB3A2A006BBF33;
+			remoteInfo = "Tax Docs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68E091D11FCB3A2A006BBF33 /* Tax Docs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tax Docs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E091D41FCB3A2A006BBF33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68E091D51FCB3A2A006BBF33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68E091D71FCB3A2A006BBF33 /* DocumentBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentBrowserViewController.h; sourceTree = "<group>"; };
+		68E091D81FCB3A2B006BBF33 /* DocumentBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserViewController.m; sourceTree = "<group>"; };
+		68E091DA1FCB3A2B006BBF33 /* DocumentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		68E091DB1FCB3A2B006BBF33 /* DocumentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		68E091DD1FCB3A2B006BBF33 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		68E091DE1FCB3A2B006BBF33 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		68E091E11FCB3A2B006BBF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E091E31FCB3A2B006BBF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E091E61FCB3A2B006BBF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68E091E81FCB3A2B006BBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E091E91FCB3A2B006BBF33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68E091EF1FCB3A2B006BBF33 /* Tax DocsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tax DocsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E091F31FCB3A2B006BBF33 /* Tax_DocsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tax_DocsTests.m; sourceTree = "<group>"; };
+		68E091F51FCB3A2B006BBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E091FA1FCB3A2B006BBF33 /* Tax DocsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tax DocsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E091FE1FCB3A2B006BBF33 /* Tax_DocsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tax_DocsUITests.m; sourceTree = "<group>"; };
+		68E092001FCB3A2B006BBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E091CE1FCB3A2A006BBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E091EC1FCB3A2B006BBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E091F71FCB3A2B006BBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E091C81FCB3A2A006BBF33 = {
+			isa = PBXGroup;
+			children = (
+				68E091D31FCB3A2A006BBF33 /* Tax Docs */,
+				68E091F21FCB3A2B006BBF33 /* Tax DocsTests */,
+				68E091FD1FCB3A2B006BBF33 /* Tax DocsUITests */,
+				68E091D21FCB3A2A006BBF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E091D21FCB3A2A006BBF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E091D11FCB3A2A006BBF33 /* Tax Docs.app */,
+				68E091EF1FCB3A2B006BBF33 /* Tax DocsTests.xctest */,
+				68E091FA1FCB3A2B006BBF33 /* Tax DocsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E091D31FCB3A2A006BBF33 /* Tax Docs */ = {
+			isa = PBXGroup;
+			children = (
+				68E091D41FCB3A2A006BBF33 /* AppDelegate.h */,
+				68E091D51FCB3A2A006BBF33 /* AppDelegate.m */,
+				68E0920C1FCB3AD4006BBF33 /* Screens */,
+				68E0921D1FCB3C44006BBF33 /* Custom Views */,
+				68E0921C1FCB3C39006BBF33 /* SQL */,
+				68E0921B1FCB3C2A006BBF33 /* 3rd Party */,
+				68E0921A1FCB3C1B006BBF33 /* Categories */,
+				68E092191FCB3C0C006BBF33 /* HTML Files */,
+				68E092171FCB3BDE006BBF33 /* Images */,
+				68E092161FCB3BD1006BBF33 /* Storyboards */,
+				68E092151FCB3BBA006BBF33 /* Supporting Files */,
+				68E091E31FCB3A2B006BBF33 /* Assets.xcassets */,
+			);
+			path = "Tax Docs";
+			sourceTree = "<group>";
+		};
+		68E091F21FCB3A2B006BBF33 /* Tax DocsTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E091F31FCB3A2B006BBF33 /* Tax_DocsTests.m */,
+				68E091F51FCB3A2B006BBF33 /* Info.plist */,
+			);
+			path = "Tax DocsTests";
+			sourceTree = "<group>";
+		};
+		68E091FD1FCB3A2B006BBF33 /* Tax DocsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68E091FE1FCB3A2B006BBF33 /* Tax_DocsUITests.m */,
+				68E092001FCB3A2B006BBF33 /* Info.plist */,
+			);
+			path = "Tax DocsUITests";
+			sourceTree = "<group>";
+		};
+		68E0920C1FCB3AD4006BBF33 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				68E0920D1FCB3AE4006BBF33 /* TDLogInViewController */,
+				68E092131FCB3B60006BBF33 /* TDCheckListViewController */,
+				68E092121FCB3B50006BBF33 /* TDTaxTipsViewController */,
+				68E092111FCB3B3F006BBF33 /* TDInstructionsViewController */,
+				68E092101FCB3B2E006BBF33 /* TDAddDocumentViewController */,
+				68E0920F1FCB3B0E006BBF33 /* TDDocumentListViewController */,
+				68E0920E1FCB3AF6006BBF33 /* TDSettingsViewController */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		68E0920D1FCB3AE4006BBF33 /* TDLogInViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TDLogInViewController;
+			sourceTree = "<group>";
+		};
+		68E0920E1FCB3AF6006BBF33 /* TDSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TDSettingsViewController;
+			sourceTree = "<group>";
+		};
+		68E0920F1FCB3B0E006BBF33 /* TDDocumentListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68E091D71FCB3A2A006BBF33 /* DocumentBrowserViewController.h */,
+				68E091D81FCB3A2B006BBF33 /* DocumentBrowserViewController.m */,
+				68E092141FCB3B9A006BBF33 /* TDDocumentTableViewCell */,
+			);
+			path = TDDocumentListViewController;
+			sourceTree = "<group>";
+		};
+		68E092101FCB3B2E006BBF33 /* TDAddDocumentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68E091DA1FCB3A2B006BBF33 /* DocumentViewController.h */,
+				68E091DB1FCB3A2B006BBF33 /* DocumentViewController.m */,
+			);
+			path = TDAddDocumentViewController;
+			sourceTree = "<group>";
+		};
+		68E092111FCB3B3F006BBF33 /* TDInstructionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TDInstructionsViewController;
+			sourceTree = "<group>";
+		};
+		68E092121FCB3B50006BBF33 /* TDTaxTipsViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TDTaxTipsViewController;
+			sourceTree = "<group>";
+		};
+		68E092131FCB3B60006BBF33 /* TDCheckListViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TDCheckListViewController;
+			sourceTree = "<group>";
+		};
+		68E092141FCB3B9A006BBF33 /* TDDocumentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				68E091DE1FCB3A2B006BBF33 /* Document.m */,
+				68E091DD1FCB3A2B006BBF33 /* Document.h */,
+			);
+			path = TDDocumentTableViewCell;
+			sourceTree = "<group>";
+		};
+		68E092151FCB3BBA006BBF33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E091E81FCB3A2B006BBF33 /* Info.plist */,
+				68E091E91FCB3A2B006BBF33 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E092161FCB3BD1006BBF33 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				68E091E01FCB3A2B006BBF33 /* Main.storyboard */,
+				68E091E51FCB3A2B006BBF33 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		68E092171FCB3BDE006BBF33 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		68E092191FCB3C0C006BBF33 /* HTML Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "HTML Files";
+			sourceTree = "<group>";
+		};
+		68E0921A1FCB3C1B006BBF33 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		68E0921B1FCB3C2A006BBF33 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
+		68E0921C1FCB3C39006BBF33 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		68E0921D1FCB3C44006BBF33 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E091D01FCB3A2A006BBF33 /* Tax Docs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E092031FCB3A2B006BBF33 /* Build configuration list for PBXNativeTarget "Tax Docs" */;
+			buildPhases = (
+				68E091CD1FCB3A2A006BBF33 /* Sources */,
+				68E091CE1FCB3A2A006BBF33 /* Frameworks */,
+				68E091CF1FCB3A2A006BBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tax Docs";
+			productName = "Tax Docs";
+			productReference = 68E091D11FCB3A2A006BBF33 /* Tax Docs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E091EE1FCB3A2B006BBF33 /* Tax DocsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E092061FCB3A2B006BBF33 /* Build configuration list for PBXNativeTarget "Tax DocsTests" */;
+			buildPhases = (
+				68E091EB1FCB3A2B006BBF33 /* Sources */,
+				68E091EC1FCB3A2B006BBF33 /* Frameworks */,
+				68E091ED1FCB3A2B006BBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E091F11FCB3A2B006BBF33 /* PBXTargetDependency */,
+			);
+			name = "Tax DocsTests";
+			productName = "Tax DocsTests";
+			productReference = 68E091EF1FCB3A2B006BBF33 /* Tax DocsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68E091F91FCB3A2B006BBF33 /* Tax DocsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E092091FCB3A2B006BBF33 /* Build configuration list for PBXNativeTarget "Tax DocsUITests" */;
+			buildPhases = (
+				68E091F61FCB3A2B006BBF33 /* Sources */,
+				68E091F71FCB3A2B006BBF33 /* Frameworks */,
+				68E091F81FCB3A2B006BBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E091FC1FCB3A2B006BBF33 /* PBXTargetDependency */,
+			);
+			name = "Tax DocsUITests";
+			productName = "Tax DocsUITests";
+			productReference = 68E091FA1FCB3A2B006BBF33 /* Tax DocsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E091C91FCB3A2A006BBF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Kathy Franzino, CPA, PC";
+				TargetAttributes = {
+					68E091D01FCB3A2A006BBF33 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					68E091EE1FCB3A2B006BBF33 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68E091D01FCB3A2A006BBF33;
+					};
+					68E091F91FCB3A2B006BBF33 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68E091D01FCB3A2A006BBF33;
+					};
+				};
+			};
+			buildConfigurationList = 68E091CC1FCB3A2A006BBF33 /* Build configuration list for PBXProject "Tax Docs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E091C81FCB3A2A006BBF33;
+			productRefGroup = 68E091D21FCB3A2A006BBF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E091D01FCB3A2A006BBF33 /* Tax Docs */,
+				68E091EE1FCB3A2B006BBF33 /* Tax DocsTests */,
+				68E091F91FCB3A2B006BBF33 /* Tax DocsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E091CF1FCB3A2A006BBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E091E71FCB3A2B006BBF33 /* LaunchScreen.storyboard in Resources */,
+				68E091E41FCB3A2B006BBF33 /* Assets.xcassets in Resources */,
+				68E091E21FCB3A2B006BBF33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E091ED1FCB3A2B006BBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E091F81FCB3A2B006BBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E091CD1FCB3A2A006BBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E091EA1FCB3A2B006BBF33 /* main.m in Sources */,
+				68E091DF1FCB3A2B006BBF33 /* Document.m in Sources */,
+				68E091D91FCB3A2B006BBF33 /* DocumentBrowserViewController.m in Sources */,
+				68E091DC1FCB3A2B006BBF33 /* DocumentViewController.m in Sources */,
+				68E091D61FCB3A2A006BBF33 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E091EB1FCB3A2B006BBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E091F41FCB3A2B006BBF33 /* Tax_DocsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E091F61FCB3A2B006BBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E091FF1FCB3A2B006BBF33 /* Tax_DocsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E091F11FCB3A2B006BBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E091D01FCB3A2A006BBF33 /* Tax Docs */;
+			targetProxy = 68E091F01FCB3A2B006BBF33 /* PBXContainerItemProxy */;
+		};
+		68E091FC1FCB3A2B006BBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E091D01FCB3A2A006BBF33 /* Tax Docs */;
+			targetProxy = 68E091FB1FCB3A2B006BBF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68E091E01FCB3A2B006BBF33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E091E11FCB3A2B006BBF33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E091E51FCB3A2B006BBF33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E091E61FCB3A2B006BBF33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E092011FCB3A2B006BBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68E092021FCB3A2B006BBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E092041FCB3A2B006BBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDQYR63YMA;
+				INFOPLIST_FILE = "Tax Docs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kathyfranzinocpapc..Tax-Docs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E092051FCB3A2B006BBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDQYR63YMA;
+				INFOPLIST_FILE = "Tax Docs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kathyfranzinocpapc..Tax-Docs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68E092071FCB3A2B006BBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RGFAQ7775;
+				INFOPLIST_FILE = "Tax DocsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kathyfranzinocpapc..Tax-DocsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tax Docs.app/Tax Docs";
+			};
+			name = Debug;
+		};
+		68E092081FCB3A2B006BBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RGFAQ7775;
+				INFOPLIST_FILE = "Tax DocsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kathyfranzinocpapc..Tax-DocsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tax Docs.app/Tax Docs";
+			};
+			name = Release;
+		};
+		68E0920A1FCB3A2B006BBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RGFAQ7775;
+				INFOPLIST_FILE = "Tax DocsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kathyfranzinocpapc..Tax-DocsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tax Docs";
+			};
+			name = Debug;
+		};
+		68E0920B1FCB3A2B006BBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RGFAQ7775;
+				INFOPLIST_FILE = "Tax DocsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kathyfranzinocpapc..Tax-DocsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tax Docs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E091CC1FCB3A2A006BBF33 /* Build configuration list for PBXProject "Tax Docs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E092011FCB3A2B006BBF33 /* Debug */,
+				68E092021FCB3A2B006BBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E092031FCB3A2B006BBF33 /* Build configuration list for PBXNativeTarget "Tax Docs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E092041FCB3A2B006BBF33 /* Debug */,
+				68E092051FCB3A2B006BBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E092061FCB3A2B006BBF33 /* Build configuration list for PBXNativeTarget "Tax DocsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E092071FCB3A2B006BBF33 /* Debug */,
+				68E092081FCB3A2B006BBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E092091FCB3A2B006BBF33 /* Build configuration list for PBXNativeTarget "Tax DocsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E0920A1FCB3A2B006BBF33 /* Debug */,
+				68E0920B1FCB3A2B006BBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E091C91FCB3A2A006BBF33 /* Project object */;
+}
